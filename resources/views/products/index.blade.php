@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h1>Daftar Produk</h1>
+<h1>Daftar Barang Inventaris</h1>
 
 <a href="/insert" class="btn btn-primary">Tambah Data Otomatis</a>
 
