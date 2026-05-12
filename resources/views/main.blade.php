@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html> 
 <head> 
-<title>SIPRO - Sistem Produk </title> 
+<title>Sistem Produk </title> 
 sebagai master layout 
 <meta name=”author” content=”Yori Adi Atma”> 
 <link href=”bootstrap.min.css" rel="stylesheet"> 
