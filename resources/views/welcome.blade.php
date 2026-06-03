@@ -12,6 +12,7 @@
         Selamat datang pada aplikasi inventaris sederhana Laravel.
     </p>
 
+    {{-- Tombol navigasi --}}
     <a href="{{ route('products.index') }}"
        class="btn btn-primary">
         Kelola Produk
@@ -21,6 +22,18 @@
        class="btn btn-success">
         Kelola Kategori
     </a>
+
+    {{-- Logout (WAJIB POST) --}}
+    <div class="mt-4">
+
+        <form action="{{ route('logout') }}" method="POST">
+            @csrf
+            <button type="submit" class="btn btn-danger">
+                Logout
+            </button>
+        </form>
+
+    </div>
 
 </div>
 
